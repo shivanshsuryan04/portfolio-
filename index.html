@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">Portfolio.</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Skills</a></li>
+                    <li><a href="">Work</a></li>
+                    <li><a href="">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi There, I'm <span class="aqua">Shivansh Suryan</span>
+                <div><span id="element"></span></div>
+            </div>
+            <div class="rightSection">
+                <img src="shivansh(2).jpg">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="grey">What I've done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+
+                <div class="vertical">
+                    <img class="img-top" src="pngegg.png" alt="">
+                    <div class="skill">HTML</div>
+                    <div class="info">
+                        Learning HTML has been quite an enlightening journey for me.
+                        Starting from scratch, I was fascinated by how simple tags could create entire web pages.
+                        Understanding the structure of HTML elements and their attributes felt like deciphering a secret
+                        language that the internet speaks.
+                        As I progressed, I found myself experimenting with different tags to manipulate text, images,
+                        and links, gradually building confidence in crafting basic web pages.
+                        Learning HTML has not only unlocked the basics of web development for me but also ignited a
+                        curiosity to delve deeper into the world of coding.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="img-top" src="pngegg (2).png" alt="">
+                    <div class="skill">CSS</div>
+                    <div class="info">
+                        Learning CSS has been a game-changer in my journey into web development.
+                        Initially intimidated by its seemingly endless possibilities, I soon realized its power in
+                        transforming plain HTML into visually stunning web pages.
+                        Mastering selectors, properties, and values felt like acquiring a new set of artistic tools that
+                        allowed me to control every aspect of design—from colors and fonts to layout and animations.
+                        As I experimented with different styles and layouts, I began to appreciate the importance of
+                        organization and specificity in CSS coding.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="img-top" src="pngegg (1).png" alt="">
+                    <div class="skill">JS</div>
+                    <div class="info">
+                        Learning JavaScript has been a thrilling journey that opened up a whole new dimension of web
+                        development for me.
+                        Starting with basic syntax and data types, I quickly grasped its power in making web pages
+                        dynamic and interactive.
+                        Understanding concepts like variables, functions, and loops was like learning the grammar of a
+                        versatile language that could respond to user actions in real-time.
+                        As I delved deeper into JavaScript frameworks and libraries, such as React and jQuery, I
+                        marveled at how they streamlined complex tasks and enhanced user experience.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="pngegg (3).png" alt="">
+                    <div class="skill">CPP</div>
+                    <div class="info">
+                        Learning C++ data structures and algorithms has been both intellectually stimulating and deeply
+                        rewarding.
+                        Starting with the fundamentals of arrays, linked lists, and stacks, I was fascinated by how
+                        these structures efficiently manage and organize data.
+                        As I progressed to more complex concepts like trees, graphs, and sorting algorithms, I found
+                        myself challenged yet motivated to understand their intricacies and implementations.
+                        Learning C++ data structures and algorithms has equipped me with a solid foundation to tackle
+                        real-world programming challenges and has inspired me to continue exploring the vast world of
+                        computer science.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="pngegg(4).png" alt="">
+                    <div class="skill">NODE.JS</div>
+                    <div class="info">
+                        Learning Node.js has been a transformative experience in my journey as a developer.
+                        Initially drawn to its ability to use JavaScript on the server-side, I was amazed by its
+                        non-blocking, event-driven architecture that enables scalable and high-performance applications.
+                        Understanding concepts like event loops, callbacks, and streams was crucial in harnessing
+                        Node.js's full potential.
+                        As I delved deeper into frameworks like Express.js and modules like npm, I appreciated how they
+                        streamlined development and allowed me to build robust APIs and web applications swiftly.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h1 class="h1">CONTACT</h1>
+            </div>
+            <div>
+                <img class="icon" src="icons8-facebook-50.png" alt="">
+                <img class="icon" src="icons8-instagram-50.png" alt="">
+                <img class="icon" src="icons8-whatsapp-50.png" alt="">
+            </div>
+        </div>
+        <div class="rights">www.shivanshportfolio.com | All rights reserved</div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Programmer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
